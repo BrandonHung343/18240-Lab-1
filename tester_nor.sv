@@ -38,7 +38,7 @@ module Tester (output logic a, b, c, d, e, f,
     #10 {a, b, c} = 3'b110;
         {d, e, f} = 3'b011;
     #10 {a, b, c} = 3'b001;
-    #10 {d, e, f} = 3'b110;
+        {d, e, f} = 3'b110;
  
     #10 $finish;
   end
