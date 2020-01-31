@@ -1,32 +1,48 @@
 {
-    "CurCompileUdps": {},
     "SIMBData": {
         "out": "amcQwB.o",
-        "bytes": 58787
+        "bytes": 58133
     },
-    "CurCompileModules": [
-        "...MASTER...",
-        "std",
-        "Tester"
-    ],
-    "Misc": {
-        "daidir_abs": "/afs/ece.cmu.edu/usr/sgetz/Private/240/lab1/simv.daidir",
-        "cwd": "/afs/ece.cmu.edu/usr/sgetz/Private/240/lab1",
-        "daidir": "simv.daidir",
-        "csrc_abs": "/afs/ece.cmu.edu/usr/sgetz/Private/240/lab1/csrc",
-        "csrc": "csrc",
-        "default_output_dir": "csrc",
-        "archive_dir": "archive.0"
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "system": {
+            "gdAaG_d": {
+                "bytes": 24763,
+                "mod": "system",
+                "out": "gdAaG_d.o",
+                "mode": 4,
+                "archive": "archive.13/_198310_archive_1.a"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "bytes": 29004,
+                "mod": "std",
+                "mode": 4,
+                "archive": "archive.13/_prev_archive_1.a",
+                "out": "reYIK_d.o"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 7328,
+                "mod": "...MASTER...",
+                "out": "amcQw_d.o",
+                "mode": 4,
+                "archive": "archive.13/_198310_archive_1.a"
+            }
+        }
     },
+    "PEModules": [],
     "NameTable": {
+        "system": [
+            "system",
+            "gdAaG",
+            "module"
+        ],
         "std": [
             "std",
             "reYIK",
-            "module"
-        ],
-        "Tester": [
-            "Tester",
-            "QZwzh",
             "module"
         ],
         "...MASTER...": [
@@ -36,15 +52,28 @@
         ]
     },
     "CompileStrategy": "fullobj",
-    "CompileStatus": "Successful",
     "LVLData": [
         "SIM"
     ],
-    "PEModules": [],
-    "CompileProcesses": [
-        "cgproc.1949.json"
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "system"
     ],
+    "CompileProcesses": [
+        "cgproc.198310.json"
+    ],
+    "Misc": {
+        "daidir_abs": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-1/simv.daidir",
+        "cwd": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-1",
+        "archive_dir": "archive.13",
+        "csrc": "csrc",
+        "csrc_abs": "/afs/ece.cmu.edu/usr/bhung/Private/18240-Lab-1/csrc",
+        "daidir": "simv.daidir",
+        "default_output_dir": "csrc"
+    },
     "stat": {
-        "nMops": 576
-    }
+        "nMops": 1465
+    },
+    "CompileStatus": "Successful"
 }
