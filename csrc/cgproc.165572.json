@@ -1,0 +1,56 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "zorgian_nor": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "archive": "archive.1/_165572_archive_1.a",
+            "mode": 4,
+            "out": "amcQw_d.o",
+            "bytes": 7336
+        },
+        "reYIK_d": {
+            "mod": "std",
+            "archive": "archive.1/_165572_archive_1.a",
+            "mode": 4,
+            "out": "reYIK_d.o",
+            "bytes": 29004
+        },
+        "q41MK_d": {
+            "mod": "zorgian_nor",
+            "archive": "archive.1/_165572_archive_1.a",
+            "mode": 4,
+            "out": "q41MK_d.o",
+            "bytes": 18424
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.1/_165572_archive_1.a",
+            "size": 54764,
+            "objects": [
+                [
+                    "amcQw_d.o",
+                    7336
+                ],
+                [
+                    "reYIK_d.o",
+                    29004
+                ],
+                [
+                    "q41MK_d.o",
+                    18424
+                ]
+            ]
+        }
+    ]
+}
