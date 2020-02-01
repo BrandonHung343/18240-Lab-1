@@ -97,7 +97,7 @@ module zorgian_nor
        (vo3, not_d, not_e),
        (vo4, not_c, not_d),
        (vo5, e, f),
-       (vo6, a, e),
+       (vo6, not_a, e),
        (vo7, not_b, e),
        (vo8, not_a, c),
        (vo9, not_a, b, not_e),
