@@ -1,12 +1,12 @@
 {
-    "system": [
-        "system",
-        "gdAaG",
-        "module"
-    ],
     "std": [
         "std",
         "reYIK",
+        "module"
+    ],
+    "system": [
+        "system",
+        "gdAaG",
         "module"
     ],
     "...MASTER...": [
