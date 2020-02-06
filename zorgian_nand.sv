@@ -14,9 +14,10 @@ module zorgian_nand
          int16, nint16, int17, nint17, int18, nint18,
          int19, nint19, int20, nint20, int21, nint21,
          int22, nint22, int23, nint23,
-         vo1, vo2, vo3, vo4, vo5, 
-         vo6, vo7, vo8, vo9, vo10,
-         vo11, vo12, vo13, nvo11, nvo12, nvo13,
+         vo1, vo2, vo3,
+         nvo1, nvo2, nvo3,
+         intv1, nintv1, intv2, nintv2, intv3, nintv3, 
+         intv4, nintv4, intv5, nintv5, intv6, nintv6, 
          no1, no2, no3, no4,
          o1, o2, o3, o4,
          not_a, not_b, not_c, not_d, not_e, not_f;
@@ -56,10 +57,14 @@ module zorgian_nand
        (nint22, int22),
        (nint23, int23),
 
-       (vo11, nvo11),
-       (vo12, nvo12),
-       (vo13, nvo13);
-  
+       (nintv1, intv1),
+       (nintv2, intv2),
+       (nintv3, intv3),
+       (nintv4, intv4),
+       (nintv5, intv5),
+       (nintv6, intv6);
+
+ 
    nand (va1, not_b, c, not_e, f),
         (va2, b, d, not_e, f),
         
@@ -116,25 +121,19 @@ module zorgian_nand
 
         (valid, no1, no2, no3, no4),
         
+        (intv1, not_a, not_c, not_d),
+        (intv2, e, not_f),
+        (vo1, nintv1, nintv2),
+        
+        (intv3, b, c, not_d),
+        (intv4, e, not_f),
+        (vo2, nintv3, nintv4),
+   
+        (intv5, a, not_b, c),
+        (intv6, not_d, not_e, f),
+        (vo3, nintv5, nintv6), 
 
-
-       (vo1, c, e),
-       (vo2, not_e, not_f),
-       (vo3, not_d, not_e),
-       (vo4, not_c, not_d),
-       (vo5, e, f),
-       (vo6, a, e),
-       (vo7, not_b, e),
-       (vo8, not_a, c),
-       (vo9, not_a, b, not_e),
-       (vo10, b, not_c, not_e),
-
-       (nvo11, vo1, vo2, vo3, vo4),
-       (nvo12, vo5, vo6, vo7, vo8),
-       (nvo13, vo9, vo10),
-
- 
-       (vowel, vo11, vo12, vo13);
+        (vowel, vo1, vo2, vo3);
 
 endmodule: zorgian_nand
       
